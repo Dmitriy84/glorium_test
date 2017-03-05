@@ -20,9 +20,14 @@ namespace OlxUaTests.Utils
             return new ThankYouPage(driver);
         }
 
-        public static OlxUaPage GetOlxUaPage(IWebDriver driver)
+        public static OlxUaPage GetOlxUa(IWebDriver driver)
         {
             return new OlxUaPage(driver);
+        }
+
+        public static HeadingPage GetHeading(IWebDriver driver)
+        {
+            return new HeadingPage(driver);
         }
     }
 }

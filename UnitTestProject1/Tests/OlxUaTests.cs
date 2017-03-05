@@ -35,10 +35,9 @@ namespace OlxUaTests
         {
             _steps.Init();
             _steps.AddAdvert();
-
-            var loginPage = PageFactory.GetLogin(_driver);
             _steps.LoginViaEmail("");
 
+            var loginPage = PageFactory.GetLogin(_driver);
             Assert.AreEqual("Поле обязательно для заполнения", loginPage.UserEmailError.Text);
         }
 
@@ -47,10 +46,9 @@ namespace OlxUaTests
         {
             _steps.Init();
             _steps.AddAdvert();
-
-            var loginPage = PageFactory.GetLogin(_driver);
             _steps.LoginViaEmail(Util.GetRandomString());
 
+            var loginPage = PageFactory.GetLogin(_driver);
             Assert.AreEqual("это не похоже на email-адрес", loginPage.UserEmailError.Text);
         }
 
@@ -60,9 +58,8 @@ namespace OlxUaTests
             _steps.Init();
             _steps.AddAdvert();
 
-            var loginPage = PageFactory.GetLogin(_driver);
             _steps.LoginViaEmail(password: Util.GetRandomString());
-
+            var loginPage = PageFactory.GetLogin(_driver);
             Assert.AreEqual("Неверный email-адрес или пароль", loginPage.UserPassError.Text);
         }
 
@@ -72,9 +69,8 @@ namespace OlxUaTests
             _steps.Init();
             _steps.AddAdvert();
 
-            var loginPage = PageFactory.GetLogin(_driver);
             _steps.LoginViaEmail(password: "");
-
+            var loginPage = PageFactory.GetLogin(_driver);
             Assert.AreEqual("Поле обязательно для заполнения", loginPage.UserPassError.Text);
         }
 
@@ -94,7 +90,7 @@ namespace OlxUaTests
             data.Title = Util.GetRandomString(Util.GetRandomInt(0, 4));
             _steps.FillAdvert(data);
 
-            var advertPage = new AdvertPage(_driver);
+            var advertPage = PageFactory.GetAdvert(_driver);
             Assert.AreEqual("Заголовок должен быть не короче 5 знаков", advertPage.TitleError.Text);
         }
 
@@ -115,7 +111,7 @@ namespace OlxUaTests
             data.Title = Util.GetRandomString(0);
             _steps.FillAdvert(data);
 
-            var advertPage = new AdvertPage(_driver);
+            var advertPage = PageFactory.GetAdvert(_driver);
             Assert.AreEqual("Пожалуйста, укажите заголовок", advertPage.TitleError.Text);
         }
 
@@ -130,7 +126,7 @@ namespace OlxUaTests
             }
             catch (WebDriverTimeoutException)
             {
-                var advertPage = new AdvertPage(_driver);
+                var advertPage = PageFactory.GetAdvert(_driver);
                 advertPage.Submit().Click();
                 Assert.AreEqual("Введите название населенного пункта или почтовый индекс и выберите местоположение из списка", advertPage.AddressError.Text);
             }
@@ -147,7 +143,7 @@ namespace OlxUaTests
             }
             catch (WebDriverTimeoutException)
             {
-                var advertPage = new AdvertPage(_driver);
+                var advertPage = PageFactory.GetAdvert(_driver);
                 advertPage.Submit().Click();
                 Assert.AreEqual("Введите название населенного пункта или почтовый индекс и выберите местоположение из списка", advertPage.AddressError.Text);
             }
@@ -160,7 +156,7 @@ namespace OlxUaTests
             data.Description = "";
             _steps.FillAdvert(data);
 
-            var advertPage = new AdvertPage(_driver);
+            var advertPage = PageFactory.GetAdvert(_driver);
             advertPage.Submit().Click();
             Assert.AreEqual("добавьте описание объявления", advertPage.DescriptionError.Text);
         }
@@ -182,7 +178,7 @@ namespace OlxUaTests
             data.FillCategory = () => { };
             _steps.FillAdvert(data);
 
-            var advertPage = new AdvertPage(_driver);
+            var advertPage = PageFactory.GetAdvert(_driver);
             Assert.AreEqual("Пожалуйста, выберите рубрику", advertPage.CategoriesError.Text);
         }
 
@@ -191,7 +187,6 @@ namespace OlxUaTests
             _steps.Init();
             _steps.AddAdvert();
 
-            PageFactory.GetLogin(_driver);
             _steps.LoginViaEmail();
 
             Action action = () =>
@@ -200,7 +195,7 @@ namespace OlxUaTests
                 string SubCategory = "Строительство / ремонт / уборка";
                 string Item = "Cтроительные услуги";
 
-                HeadingPage headingPage = new HeadingPage(_driver);
+                HeadingPage headingPage = PageFactory.GetHeading(_driver);
                 headingPage.ChooseCategory(Header).Click();
                 WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
                 wait.Until(ExpectedConditions.ElementExists(By.XPath("//div[@class='choosecat chooseway clr overh rel']")));

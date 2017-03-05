@@ -28,7 +28,7 @@ namespace OlxUaTests.Steps
 
         public void AddAdvert()
         {
-            PageFactory.GetOlxUaPage(_driver).AdvertButton.Click();
+            PageFactory.GetOlxUa(_driver).AdvertButton.Click();
         }
 
         public void LoginViaEmail(string email = "dimon24@i.ua", string password = "qwerty123")
