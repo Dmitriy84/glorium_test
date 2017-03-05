@@ -48,7 +48,6 @@ namespace OlxUaTests.Pages
 
         public IWebElement Submit()
         {
-            Thread.Sleep(2000);
             var element = _wait.Until(ExpectedConditions.ElementToBeClickable(By.Id("save")));
             ((IJavaScriptExecutor)_driver).ExecuteScript("arguments[0].scrollIntoView(true);", element);
             return _wait.Until(ExpectedConditions.ElementToBeClickable(By.Id("save")));
