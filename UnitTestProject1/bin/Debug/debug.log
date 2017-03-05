@@ -1,0 +1,60 @@
+[0305/212129.715:ERROR:process_info.cc(608)] range at 0xfee0f000, size 0x230 fully unreadable
+[0305/212129.727:ERROR:process_info.cc(608)] range at 0xfee0e000, size 0xf84 fully unreadable
+[0305/212129.727:ERROR:process_info.cc(608)] range at 0xfee0b000, size 0xf84 fully unreadable
+[0305/212129.727:ERROR:process_info.cc(608)] range at 0xfee05000, size 0xf84 fully unreadable
+[0305/212129.727:ERROR:process_info.cc(608)] range at 0xfecdf000, size 0xf84 fully unreadable
+[0305/212129.727:ERROR:process_info.cc(608)] range at 0xfecdc000, size 0xf84 fully unreadable
+[0305/212129.727:ERROR:process_info.cc(608)] range at 0xfecd9000, size 0xf84 fully unreadable
+[0305/212129.728:ERROR:process_info.cc(608)] range at 0xfecd6000, size 0xf84 fully unreadable
+[0305/212129.728:ERROR:process_info.cc(608)] range at 0xfecd3000, size 0xf84 fully unreadable
+[0305/212129.728:ERROR:process_info.cc(608)] range at 0xfecd0000, size 0xf84 fully unreadable
+[0305/212129.728:ERROR:process_info.cc(608)] range at 0xfeccd000, size 0xf84 fully unreadable
+[0305/212129.728:ERROR:process_info.cc(608)] range at 0xfecca000, size 0xf84 fully unreadable
+[0305/212129.728:ERROR:process_info.cc(608)] range at 0xfecc1000, size 0xf84 fully unreadable
+[0305/212129.794:ERROR:process_reader_win.cc(233)] ReadMemory at 0x5e5000 of 45056 bytes failed: Запит ReadProcessMemory або WriteProcessMemory виконано лише частково. (0x12B)
+[0305/212129.794:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0305/212129.796:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0305/212132.198:ERROR:process_reader_win.cc(142)] SuspendThread: Немає дозволу на доступ. (0x5)
+[0305/212132.199:ERROR:exception_snapshot_win.cc(87)] thread ID 18676 not found in process
+[0305/212132.199:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0305/212132.199:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0306/000617.053:ERROR:process_info.cc(608)] range at 0xfeeff000, size 0x230 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfeefe000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfeef8000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfeef5000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedcf000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedcc000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedc9000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedc6000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedc3000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedc0000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedbd000, size 0xf84 fully unreadable
+[0306/000617.057:ERROR:process_info.cc(608)] range at 0xfedba000, size 0xf84 fully unreadable
+[0306/000617.058:ERROR:process_info.cc(608)] range at 0xfedb7000, size 0xf84 fully unreadable
+[0306/000617.058:ERROR:process_info.cc(608)] range at 0xfedb4000, size 0xf84 fully unreadable
+[0306/000617.058:ERROR:process_info.cc(608)] range at 0xfedb1000, size 0xf84 fully unreadable
+[0306/000617.058:ERROR:process_info.cc(608)] range at 0xfedae000, size 0xf84 fully unreadable
+[0306/000617.058:ERROR:process_info.cc(608)] range at 0xfedab000, size 0xf84 fully unreadable
+[0306/000617.058:ERROR:process_info.cc(608)] range at 0xfeda8000, size 0xf84 fully unreadable
+[0306/000617.088:ERROR:process_reader_win.cc(233)] ReadMemory at 0x4bf5000 of 45056 bytes failed: Запит ReadProcessMemory або WriteProcessMemory виконано лише частково. (0x12B)
+[0306/000617.088:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0306/000617.089:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0306/001208.091:ERROR:process_info.cc(608)] range at 0xffdfa000, size 0x230 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffdfe000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffdf9000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffdf6000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffccf000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffccc000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcc9000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcc6000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcc3000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcc0000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcbd000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcba000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcb7000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcb4000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcb1000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcae000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffcab000, size 0xf84 fully unreadable
+[0306/001208.096:ERROR:process_info.cc(608)] range at 0xffca8000, size 0xf84 fully unreadable
+[0306/001208.137:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)

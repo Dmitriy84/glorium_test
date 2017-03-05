@@ -1,0 +1,12 @@
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\OlxUaTests.dll
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\OlxUaTests.pdb
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\nunit.framework.dll
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.dll
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.Support.dll
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\nunit.framework.xml
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.xml
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.Support.xml
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\OlxUaTests.dll
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\OlxUaTests.pdb
+c:\users\dimon24\documents\visual studio 2015\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\OlxUaTests.csprojResolveAssemblyReference.cache
